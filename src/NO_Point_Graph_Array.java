@@ -18,8 +18,8 @@ public static void main(String args[]) {
 			}
 //	输出
 	System.out.print("无向图形矩阵：\n");
-	for(i=0;i<6;i++) {
-		for(j=0;j<6;j++){
+	for(i=1;i<6;i++) {//因为邻接矩阵都是从1开始，所以矩阵为0的位置不记录数据
+		for(j=1;j<6;j++){
 			System.out.print("["+arr[i][j]+"]");
 		}System.out.println();
 	}
