@@ -50,8 +50,7 @@ public class adjacency_list {
 				DataNum=data[j][1];
 				head[i].insert(DataNum);
 			}
-		}
-		head[i].print();
+		} head[i].print();
 	}
 	}
 }
